@@ -1,5 +1,15 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def palindrome(word):
-    pass
+    length = len(word)
+    wordy = []
+    for i in range((length),0,-1):
+        wordy.append(word[i-1])
+    separator = ''
+    backwards = separator.join(wordy)
+    return(backwards.lower() == word.lower())
 
-#YOUR CODE GOES HERE
+
+
+
+word1 = input()
+print(palindrome(word1))
