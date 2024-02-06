@@ -8,7 +8,7 @@ def palindrome(word):
     backwards = separator.join(wordy)
     return(backwards.lower() == word.lower())
 
-
+#comment
 
 
 word1 = input()
