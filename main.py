@@ -6,8 +6,8 @@ def palindrome(word):
     else:
         length = len(word)
         wordy = []
-        for i in range((length),0,-1):
-            wordy.append(word[i-1])
+        for i in range((length-1),0,-1):
+            wordy.append(word[i])
         separator = ''
         backwards = separator.join(wordy)
         return(backwards.lower() == word.lower())
