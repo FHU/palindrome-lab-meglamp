@@ -10,9 +10,9 @@ def palindrome(word):
             wordy.append(word[i-1])
         separator = ''
         backwards = separator.join(wordy)
-        return(backwards.lower() == word.lower())
+        return(str(backwards.lower() == word.lower()))
 
 
 
 word1 = input()
-print(str(palindrome(word1)))
+print(palindrome(word1))
