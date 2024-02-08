@@ -4,13 +4,14 @@ def palindrome(word):
     if word == "":
         return(False)
     else:
-        length = len(word)
+        length = len(word) -1
         wordy = []
-        for i in range((length-1),0,-1):
+        for i in range((length),0,-1):
             wordy.append(word[i])
         separator = ''
         backwards = separator.join(wordy)
         return(backwards.lower() == word.lower())
+    
 
 
 
