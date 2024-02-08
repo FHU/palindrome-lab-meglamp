@@ -15,5 +15,6 @@ def palindrome(word):
 
 
 
+
 word1 = input()
 print(palindrome(word1))
