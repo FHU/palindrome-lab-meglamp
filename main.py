@@ -1,6 +1,6 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def palindrome(word):
-    word = word.strip()
+    word = word.strip().lower()
     if word == "":
         return(False)
     else:
