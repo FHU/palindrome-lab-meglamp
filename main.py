@@ -17,6 +17,6 @@ def palindrome(word):
 
 
 
-
-word1 = input()
-print(palindrome(word1))
+if __name__ == '__main__':
+    word1 = input()
+    print(palindrome(word1))
